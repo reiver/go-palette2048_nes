@@ -9,6 +9,29 @@ Online documentation, which includes examples, can be found at: https://github.c
 
 [![GoDoc](https://godoc.org/github.com/reiver/go-palette2048_nes?status.svg)](https://godoc.org/github.com/reiver/go-palette2048_nes)
 
+## Example
+
+```go
+import (
+	"github.com/reiver/go-palette2048"
+	"github.com/reiver/go-palette2048_nes"
+)
+
+// ...
+
+palette := palette2048.Slice(palette2048_nes.Palette)
+
+// ...
+
+// Get the color at a specific index in the palette.
+color := palette.Color(index)
+
+// ...
+
+// Get the color in the palette that is closet to a reference color.
+closestColor := palette.Convert(referenceColor)
+```
+
 ## See Also
 
 Also see:
