@@ -5,7 +5,7 @@ that when used with the https://github.com/reiver/go-palette2048 package works w
 
 ## Documention
 
-Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-palette2048_nes
+Online documentation, which includes examples, can be found at: https://github.com/reiver/go-palette2048_nes
 
 [![GoDoc](https://godoc.org/github.com/reiver/go-palette2048_nes?status.svg)](https://godoc.org/github.com/reiver/go-palette2048_nes)
 
